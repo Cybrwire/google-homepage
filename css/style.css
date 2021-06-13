@@ -3,3 +3,16 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.topnav {
+    height: 50px;
+    width: 1000px;
+}
+.topnav a {
+    text-decoration: none;
+}
+
+#logo { 
+    position: relative;   
+
+}

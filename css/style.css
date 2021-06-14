@@ -6,13 +6,26 @@ ul {
 
 .topnav {
     height: 50px;
-    width: 1000px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    
 }
 .topnav a {
     text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}
+.topnav a.left{
+    text-decoration: none;
+    padding-right: 1450px;
+}
+.topnav #icon {
+    top: 10px;
+    position: relative;
 }
 
 #logo { 
     position: relative;   
-
 }

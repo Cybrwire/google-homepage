@@ -1,3 +1,9 @@
+body {
+    position: absolute;
+    justify-content: center ;
+    margin-right: auto;
+    margin-left:auto;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,8 +11,9 @@ ul {
 }
 
 .topnav {
+    position: relative;
     height: 50px;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 14px;
     font-family: Arial, sans-serif;
     
@@ -22,10 +29,47 @@ ul {
     padding-right: 1450px;
 }
 .topnav #icon {
-    top: 10px;
+    top: 8px;
     position: relative;
 }
 
 #logo { 
-    position: relative;   
+    position: relative;  
+    justify-content: center;
+    margin: 180px 720px;
+    
 }
+#icon {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    border:none;
+
+}
+.search-border {
+    position: relative;
+    left: 600px;
+    background: white;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;    
+    overflow: hidden;
+}
+
+input {
+    height: 44px;
+    width: 527px;
+    margin-left: auto;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+input:hover {
+    pointer-events: none;
+}
+

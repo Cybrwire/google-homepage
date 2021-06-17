@@ -1,5 +1,13 @@
+html body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 body {
-    position: absolute;
+    
     justify-content: center ;
     margin-right: auto;
     margin-left:auto;
@@ -91,6 +99,7 @@ input:hover {
     height: 36px;
     min-width: 54px;
 }
+
 .search-button:hover {
     border: 1px solid #4285f4;
     border-color: blue;
@@ -98,8 +107,32 @@ input:hover {
 
 footer {
     background-color: rgb(238, 238, 238);
+    position: relative;
+    bottom: -225px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 47px;
+
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
+}
 
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
 }

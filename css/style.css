@@ -107,12 +107,12 @@ input:hover {
 
 footer {
     background-color: rgb(238, 238, 238);
-    position: relative;
-    bottom: -225px;
-    padding-left: 20px;
+    position: fixed;
+    bottom: 0px;
+    padding-left: px;
     padding-right: 20px;
     height: 47px;
-
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,8 +123,17 @@ footer div {
     display: flex;
     flex-direction: row;
     justify-content:center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#70757a;
 }
-
+footer div:nth-child(1) {
+    justify-content: left;
+}
+footer div:nth-child(3) {
+    justify-content: right;
+}
 footer a {
     text-decoration: none;
 }
@@ -135,4 +144,8 @@ footer a {
 
 .col {
     flex: 1;
+}
+div.col a {
+    padding-left: 10px;
+    padding-right: 10px;
 }
